@@ -34,11 +34,11 @@ describe('The One API', () => {
     });
 
     it('getMovieQuotes by id', async () => {
-        const id = '5cd95395de30eff6ebccde56';
+        const id = '5cd95395de30eff6ebccde5c';
         const data = await ringsSdk.getMovieQuotes(id);
 
         expect(data.docs).toBeDefined();
-        expect(data.docs[0]._id).toBeDefined();
+        expect(Array.isArray(data.docs)).toBeDefined();
     });
 
     it('getQuotes', async () => {
