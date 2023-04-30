@@ -6,14 +6,14 @@ The `RingsSdk` class is like the Fellowship of the Ring - a team of brave compan
 
 ## Instalation
 
-The `tgodois-ringsdk` is a Node.js SDK for interacting with the Ring's API. This SDK provides a simple way to get information about movies and quotes
+The `talesmgodois-ringsdk` is a Node.js SDK for interacting with the Ring's API. This SDK provides a simple way to get information about movies and quotes
 
 ## Installation
 
 To install the SDK, simply run the following command:
 
 ```bash
-npm install tgodois-ringsdk
+npm install talesmgodois-ringsdk
 ```
 
 ## Usage
@@ -21,13 +21,13 @@ npm install tgodois-ringsdk
 To use the SDK, first import it into your project:
 
 ```javascript
-const { RingsSdk } = require('tgodois-ringsdk');
+const { RingsSdk } = require('talesmgodois-ringsdk');
 ```
 
 Or in TypeScript:
 
 ```typescript
-import { RingsSdk } from 'tgodois-ringsdk';
+import { RingsSdk } from 'talesmgodois-ringsdk';
 ```
 
 Then, create a new instance of the SDK by passing your API credentials:
