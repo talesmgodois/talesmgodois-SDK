@@ -2,7 +2,45 @@
 
 The `RingsSdk` class is like the Fellowship of the Ring - a team of brave companions on a quest to deliver a powerful and valuable service to the world of developers. It provides methods for interacting with the Rings API and retrieving movie and quote data.
 
-### Constructor
+
+
+## Instalation
+
+The `tgodois-ringsdk` is a Node.js SDK for interacting with the Ring's API. This SDK provides a simple way to get information about movies and quotes
+
+## Installation
+
+To install the SDK, simply run the following command:
+
+```bash
+npm install tgodois-ringsdk
+```
+
+## Usage
+
+To use the SDK, first import it into your project:
+
+```javascript
+const { RingsSdk } = require('tgodois-ringsdk');
+```
+
+Or in TypeScript:
+
+```typescript
+import { RingsSdk } from 'tgodois-ringsdk';
+```
+
+Then, create a new instance of the SDK by passing your API credentials:
+
+
+```typescript
+const ringsSdk = new RingsSdk({
+    token,
+});
+```
+
+
+## Methods
 
 The constructor of the `RingsSdk` class takes a `SdkOptions` object as a parameter, just as the Fellowship was formed to help Frodo on his journey to destroy the One Ring. This object contains the following properties:
 
@@ -34,4 +72,5 @@ This method returns a `Promise` that resolves to an array of all `Quote` objects
 This method returns a `Readable` stream that emits chunks of `Quote` objects, much like the Fellowship had to adapt and change tactics to overcome different challenges. The `chunkLimit` parameter specifies the number of quotes to retrieve in each chunk. 
 
 
-This documentation have help of chat gpt to be written getting the lord of the rings references
+
+## I asked ChatGPT for help in crafting this documentation with a Lord of the Rings theme. Although it didn't turn out quite as amazing as I had hoped, it's definitely better than anything I could have come up with on my own.
