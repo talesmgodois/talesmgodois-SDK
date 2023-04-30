@@ -5,7 +5,7 @@ dotenv.config();
 
 jest.setTimeout(2000000);
 
-const token = process.env.ACCESS_TOKEN ?? 'kd4eVUpx2QybkU4B83aD';
+const token = process.env.ACCESS_TOKEN ?? '';
 
 describe('The One API', () => {
     const ringsSdk = new RingsSdk({
